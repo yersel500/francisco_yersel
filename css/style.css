@@ -4,17 +4,45 @@
     }
 }
 
-#welcome-section {
-    height: 100vh;
-}
 
 #navbar {
+    border: 4px solid brown;
     position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
+    background-color: rgb(184, 69, 69);
+    
   }
 
 ul {
     display: flex;
     margin: 0;
+    list-style: none;
+    text-align: end;
+    color: white;
+}
+
+#welcome-section {
+    border: 4px solid brown;
+    height: 100vh;
+    background-color: rgb(73, 73, 87);
+    margin: auto;
+}
+
+.welcome {
+    border: 4px solid blue;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+
+h2 {
+    align-items: center;
+    justify-content: center;
+} 
+
+#projects {
+    border: 4px solid brown;
 }
