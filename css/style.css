@@ -26,6 +26,7 @@ ul {
 #welcome-section {
     border: 4px solid brown;
     height: 100vh;
+    width: 100%;
     background-color: rgb(73, 73, 87);
     margin: auto;
 }
@@ -43,6 +44,25 @@ h2 {
     justify-content: center;
 } 
 
-#projects {
+.project-section {
+    display: flex;
+}
+
+.projects-grid {
     border: 4px solid brown;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    display: flex;
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.project-tile {
+    padding: 100px;
+    margin: 20px;
+}
+
+.project-tile > img {
+    width: 100%;
+    height: auto;
 }
